@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { capitalizeNames } from "../code/exo1.js";
-import { describe } from "mocha";
+import { describe , it} from "mocha";
 
 describe("capitalizeNames", () => {
 it("should capitalize ['jo', 'nelson', 'jurie']", () => {
